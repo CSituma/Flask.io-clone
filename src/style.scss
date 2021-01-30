@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body{
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+ font-family: Merriweather;
+
+} 
+
+.red{
+
+  background-color: red;
+}
+*{
+   box-sizing: border-box;
+ }
+
+
+a:hover{
+
+  text-decoration: none;
+    color:white;
+  
+}
+
+ input:focus,
+ select:focus,
+ textarea:focus,
+ button:focus {
+     outline: none;
+ }
+
+
+ .fill {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width:100%
+}
+ .fill2 {
+  -webkit-box-sizing: border-box;
+//border: none;
+border: 2px solid rgba(38, 39, 39, 0.181);
+border-bottom: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width:100%;
+  padding-bottom:20px;
+  padding-left: 2em;;
+  font-size: 2.5em;
+
+:placeholder-shown{
+  font-weight: bold;
+}
+
+  input:focus,
+  &:focus{
+    
+    border: 2px solid rgba(31, 32, 32, 0.181);
+    border-bottom: none;
+  }
+  
+}
+ .purple{
+background-color: purple;
+
+ }
+ .purpletext{
+color: rgba(85, 0, 128, 0.537);
+font-weight: bold;
+
+a{
+  color:rgba(128, 0, 128, 0.653)
+}
+
+ }
+/////////////////// NAV//////////////
+ .Nav{
+  height: 90px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2.4em;
+  z-index: 10;
+
+  @media screen and (max-width: 700px) {
+   padding:0.5rem 0;
+
+  }
+ }
+
+
+.NavLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem;
+  cursor: pointer;
+   &:active,&:focus{
+    color: rgba(0, 0, 0, 0.336);
+  }
+
+  @media screen and (max-width: 700px) {
+    margin-bottom:2em;
+  }
+  
+} 
+
+ .NavBtnLink{
+
+ display: flex;
+  align-items: center;
+  margin-right: 24px;
+  border-radius: 8px;
+  background:none;
+  padding: 8px 18px;
+  font-size: small;
+  font-weight: 600;
+  color:rgba(0, 0, 0, 0.363);
+  outline: none;
+  border: 1px rgba(0, 0, 0, 0.146) solid;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: white;
+    background-color: purple;
+  }}
+
+
+
+///////////////  NABAR      ///////////////         ///////////////
+ .bar1{
+background-color:rgb(58, 54, 54);
+height:2.2rem;
+
+a{
+  color:rgba(255, 255, 255, 0.756);
+  float: right;
+  margin-right:2rem;
+}
+ }
+ .bar2{
+background-color:rgba(96, 0, 128, 0.715);
+height:3.2rem;
+box-shadow: 2px -1px 2px black;
+padding: 0.3rem 0.5rem;;
+
+
+a{
+  text-decoration: none;
+ 
+}
+h2{
+ color:rgba(0, 0, 0, 0.571);
+ font-weight: bold;
+ opacity:60%; 
+  padding-left:2rem ;
+
+}
+
+ }
+ .memberNav{
+margin-left:48rem;
+ 
+ }
+  
+///////  LANDING//////////////////////
+.Homepage{
+   margin-left:1.5rem;
+   text-align: center;
+    height:100vh ;
+  h2{
+  
+    text-align: center;
+     margin-top:4em;
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.468);
+    
+
+}
+h1{
+color:rgba(130, 7, 155, 0.961);
+font-weight: 400;
+font-size: 2.4rem;
+text-align: start;
+
+@media (max-width:1200px){
+  
+font-size:1.1rem;
+}
+}
+p{
+  line-height: 0.7rem;
+  font-size: 1em;
+  opacity:80%;
+}
+.dull{
+  line-height: 0.7rem;
+  color:rgba(0, 0, 0, 0.578);
+  font-size: 1em;
+  opacity:80%;
+ margin-top:8em;
+
+ position:absolute;
+  
+  
+}
+.intro, .info, .Sponsors, .Testimonies{
+  display: flex;
+  padding: 2em;
+ justify-content: space-between;
+ 
+  @media (max-width:1000px){
+
+  flex-direction: column;
+    
+    }
+}
+ .intro{
+  margin-top: 2.3em;
+ }
+ 
+ img {
+
+  @media (max-width:1000px){
+   
+margin-top: 10rem;
+}
+}
+ 
+}
+.btn, .btnn{
+  a{
+    text-decoration: none;
+    color:white;
+  }
+
+  @media (max-width:1200px){
+
+    font-size:1rem;
+    padding: 1rem 3rem;
+  
+}
+  
+}
+/////Footer///@
+
+.footer{
+  background-color: rgb(62, 7, 62);
+  width:100vw;
+  .justify-content-end
+{
+  width:100vw;
+padding: 3em;
+margin: 0;
+a{
+
+    color:rgba(255, 255, 255, 0.304);
+}
+
+}
+}
+
+
+/////NEW////
+.title{
+background-color: rgba(213, 205, 255, 0.311);
+box-shadow: 5px 3px 2px rgb(0, 0, 0);
+color:rgba(0, 0, 0, 0.571);
+padding: 1rem 1.5rem;
+
+h2{
+  font-size: 1.5rem;
+}
+}
+
+/////FORMS////
+.Form{
+margin: 2em;
+
+input{
+  width:50%;
+
+  &:focus{
+    border:1px solid rgba(128, 0, 128, 0.568);
+  }
+}
+
+h2{
+  margin-bottom: 1em;
+  color: rgba(0, 0, 0, 0.66);
+}
+}
+
+///DASHBOARD///////
+
+.Dash{
+
+  padding: 2.5em;
+
+h2{
+  color:rgba(0, 0, 0, 0.626);
+}
+
+}
