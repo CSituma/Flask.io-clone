@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+git branch -M main
+git remote add origin https://github.com/CSituma/Flask.io-clone.git
+git push -u origin main

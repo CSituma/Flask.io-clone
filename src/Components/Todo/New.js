@@ -32,15 +32,6 @@ const handleChange = (e) =>{
   }
   }
 
-useEffect(() => {
-  if (!isAuthenticated) {
-    return <Redirect to ="/Dashboard"/>
-   
- }
-
-
-}, )
-
 
   return (
     <div>
